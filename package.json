@@ -12,17 +12,18 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.2",
     "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.57.1",
     "serve-favicon": "^2.5.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "react-scripts start",
+    "dev": "nodemon server.js",
+    "react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
